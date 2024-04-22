@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+    font-size: large;
+
+}
+
+.input-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.inp1 {
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 8px;
+    margin-block: 5px;
+    width: 50%;
+}
+.inp1:hover{
+    background-color: maroon;
+    color: white;
+}
+
+.inp2 {
+    background-color: rgb(197, 174, 174);
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 8px;
+    margin-block: 5px;
+    
+}
+.inp2:hover{
+    background-color: red;
+    color: white;
+}
+ul{
+    
+    margin-right: 14%;
+   
+}
+
+ul li{
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    padding: 6px 8px;
+    margin: 3%;
+    margin-right: 100%;
+    background-color: rgb(211, 189, 189);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    /* size: 10%; */
+    width: 150%;
+    height: 1%;
+   
+} 
+ul li:hover{
+    background-color: rgb(237, 237, 160);
+    color: purple;
+}
+ul li p{
+      flex-grow: 1;
+      padding: 2px;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 10px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 6px;
+}
+.deletebtn{
+    
+    color: #0a7199;
+}
+.Editbtn{
+    color: #139513;
+}
+
